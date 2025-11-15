@@ -154,3 +154,29 @@ a, button {
     background: url("../img/bg-footer.jpg") no-repeat center center;
     background-size: cover;
 }
+
+@media only screen and (max-width: 1450px){
+   .c-container-l{
+       max-width: 1250px !important;
+       margin-inline: auto;
+   }
+}
+
+@media only screen and (max-width: 1350px){
+    .c-container-l{
+        max-width: 1200px !important;
+        margin-inline: auto;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    .c-container-l{
+        max-width: 1150px !important;
+        margin-inline: auto;
+    }
+}
+
+.c-container-l{
+    max-width: 1400px;
+    margin-inline: auto;
+}
